@@ -1,0 +1,1 @@
+pip freeze | ForEach-Object { pip uninstall -y $_ }
